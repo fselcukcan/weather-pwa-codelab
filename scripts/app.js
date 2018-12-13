@@ -353,7 +353,7 @@ app.selectedCities = localStorage.selectedCities;
     ];
     app.saveSelectedCities();
   }
-    // TODO add service worker code here
+  // TODO add service worker code here
     if ('serviceWorker' in navigator) {
 	navigator.serviceWorker
 	    .register('../service-worker.js')
